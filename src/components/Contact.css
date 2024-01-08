@@ -117,3 +117,12 @@ input ,textarea{
         margin: 0px;
     }
 }
+.yes{
+    display: block;
+}
+.no{
+    display: none;
+}
+.messagesent{
+    color: rgb(43, 190, 43);
+}

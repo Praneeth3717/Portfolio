@@ -55,8 +55,9 @@
 }
 .part{
   width:100%;
+  height:calc(100vh - 70px);
   display: flex;
-  justify-content:space-between;
+  justify-content:space-around;
 }
 .part1{
   width: 45%;
@@ -64,13 +65,13 @@
   background:transparent;
 }
 .part2{
-  width:50%;
-  height: calc(100vh - 70px);
-  margin-right: 20px;
+  width:425px;
+  height:calc(100vh - 70px);
+  overflow: hidden;
 }
 .header-pic{
-  width:100%;
-  height:calc(100vh - 70px);
+  width:425px;
+  height:540px;
   background-size: cover;
   transition: 1s;
 }
@@ -169,14 +170,8 @@ html{
     width:100%;
     overflow:hidden;
   }
-  .header-pic{
-    width:600px;
-    height: calc(100vh - 70px);
-  }
   /* text part */
   .part1{
-    position: absolute;
-    bottom:10px;
     background: transparent;
     margin: 0%;
   }
@@ -191,11 +186,40 @@ html{
     font-size: 40px;
   }
 }
+@media only screen and (width<450px){
+  .part1{
+    position: absolute;
+    left:10px;
+    bottom:20px;
+    z-index: 1;
+  }
+  .uluu{
+    z-index: 4;
+  }
+}
+
 @media only screen and (max-height:400px){
   .part112{
     font-size: 40px;
   }
   .part111 {
     font-size: 15px;
+  }
+}
+@media only screen and (height>610px){
+  .header-pic{
+    height:calc(100vh - 70px);
+    width:500px;
+  }
+  .part2{
+    width:500px;
+  }
+}
+@media only screen and (height>1000px){
+  .header-pic{
+    width:700px;
+  }
+  .part2{
+    width:700px;
   }
 }
