@@ -25,7 +25,7 @@ export default function About() {
   return (
     <div  name='about' className='about'>
       <div className='col-1'>
-          <img  className='nitw' src='./Portfolio/nitw.jpg' alt='nitw'></img>
+          <img  className='nitw' src='/nitw.jpg' alt='nitw'></img>
       </div>
       <div className='col-2'>
         <h1>About Me</h1>

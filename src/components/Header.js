@@ -36,7 +36,7 @@ export default function Header() {
         </div>
       </div>
       <div className='part2'>
-        <img src='./Portfolio/pic.png' alt='' className='header-pic'></img>
+        <img src='/pic.png' alt='' className='header-pic'></img>
       </div>
     </div>
     </div>
