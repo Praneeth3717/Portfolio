@@ -29,7 +29,7 @@ export default function About() {
       </div>
       <div className='col-2'>
         <h1>About Me</h1>
-        <p>My name is Chandupatla Praneeth.I live in Warangal.I develop Frontend websites.Making webpages is something I'am generally intrested in.I work on my projects using ReactJS framework.The majority of my projects revolve around fetching data from API's and presenting it on my webpage.</p>
+        <p>I’m Praneeth Chandupatla, a passionate MERN Stack Developer skilled in building dynamic, scalable web applications using MongoDB, Express.js, React, and Node.js. I enjoy designing seamless front-end experiences, crafting efficient back-end systems, and exploring new technologies to stay at the forefront of web development and deliver exceptional user experiences.</p>
         <div className='tab-cont1'>
             <p onClick={handleskills} className={`abclick ${Skills?'line':''}`}>Skills</p>
             <p onClick={handleEducation} className={`abclick ${Education?'line':''}`}>Education</p>
@@ -41,11 +41,14 @@ export default function About() {
                 <li><img className='skillpic' src='CSS.png' alt=''></img><br/>CSS</li>
                 <li><img className='skillpic' src='JavaScript.png' alt=''></img><br/>JavaScript</li>
                 <li><img className='skillpic' src='React.png' alt=''></img><br/>React</li>
+                <li><img className='skillpic' src='nodejs.png' alt=''></img><br/>NodeJs</li>
+                <li><img className='skillpic' src='expressjs.png' alt=''></img><br/>ExpressJs</li>
+                <li><img className='skillpic' src='mongoDB.jpeg' alt=''></img><br/>MongoDB</li>
                 <li><img className='skillpic' src='C++.png' alt=''></img><br/>C++</li>
               </div>
             </ul>
             <ul className={`list ${Education?'active':''}`}>
-                <li><span>National Institution of Technology, Warangal (2025)</span><br/>B.Tech., Metallurgical and Materials Engineering (CGPA: 6.07)</li>
+                <li><span>National Institution of Technology, Warangal (2025)</span><br/>B.Tech., Metallurgical and Materials Engineering (CGPA: 5.93)</li>
                 <li><span>Narayana Junior College (2021)</span><br/>Telangana State Board of Intermediate Education (Percentage: 93.2)</li>
                 <li><span>Dr KKR’s Gowtham Concept School (2019)</span><br/>Telangana State Board of Secondary Education (CGPA: 9.8)</li>
             </ul>

@@ -1,0 +1,31 @@
+[
+    {
+        "imgSrc": "Diary.jpg",
+        "imgAlt": "diary",
+        "heading": "Diary Application",
+        "description": "Developed a full-stack diary app with authentication (Login/Signup), secure entry management, and personalized user features.",
+        "link": "https://diary-mern-frontend.onrender.com"
+    },
+    {
+        "imgSrc": "AddUser.png",
+        "imgAlt": "adduser",
+        "heading": "Add-User Webpage",
+        "description": "Developed an Add User page with full CRUD (Create, Read, Update, Delete) functionality, allowing seamless user management.",
+        "link": "https://mernstack-crud-frontend.onrender.com"
+    },
+    {
+      "imgSrc": "weather.jpg",
+      "imgAlt": "weather",
+      "heading": "Weather Webpage",
+      "description": "A user responsive API-based website which fetches weather information for a user-specified location and shows recent search history.",
+      "link": "https://praneeth3717.github.io/Weather-app/"
+    },
+    {
+      "imgSrc": "amazon.jpg",
+      "imgAlt": "amazon",
+      "heading": "Amazon-clone",
+      "description": "A user-responsive website clone of amazon.com using HTML and CSS.",
+      "link": "https://praneeth3717.github.io/Amazon-clone/"
+    }
+  ]
+  
