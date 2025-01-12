@@ -6,7 +6,7 @@ import {BsFacebook,BsInstagram,BsLinkedin} from "react-icons/bs";
 import axios from 'axios'
 
 export default function Contact() {
-  const urltoSend="http://localhost:1000/router/sendData"
+  const urltoSend="https://mern-portfolio-server-3vik.onrender.com/router/sendData"
   const [sent,setsent]=useState("no")
   const [data,setdata]=useState({})
   const onChangeHandler=(e)=>{
